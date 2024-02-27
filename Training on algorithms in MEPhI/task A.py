@@ -9,3 +9,4 @@ if (count3 < 2)&((count3 + count4) <= 0.25*n):
     print("Red")
 else:
     print("Blue")
+    
