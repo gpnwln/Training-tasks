@@ -1,0 +1,40 @@
+TASK A. Red and blue diploma
+
+The time limit is 2 seconds
+Memory limit is 256Mb
+Input: standard input or input.txt
+Output: standard output or output.txt
+
+There are three types of subject grades in the university diploma supplement:
+- "satisfactory" (3),
+- "good" (4),
+- "excellent" (5).
+The red diploma is given to students who have no more than one grade "satisfactory", and the total number of grades "satisfactory" and "good" does not exceed 25% of the total number of grades. All other students are given a blue diploma. According to the student's estimates, determine what color his diploma will be.
+
+Input format:
+In the first line, enter the number n (1 ≤ n ≤ 100,000) — the number of student grades.
+In the second line, enter n integers gi (3 ≤ gi ≤ 5) — the student's grades in numerical form.
+
+Output format:
+Output one line ”Red” or ”Blue” — the color of the student's diploma
+
+Example 1:
+Input:
+5
+5 5 3 5 5
+Conclusion:
+Red
+
+Example 2
+Input:
+4
+5 4 3 5
+Conclusion:
+Blue
+
+Example 3
+Input:
+4
+5 5 4 5
+Output:
+Red

@@ -1,0 +1,34 @@
+TASK B. There's nothing to see here
+
+The time limit is 2 seconds
+Memory limit is 256Mb
+Input: standard input or input.txt
+Output: standard output or output.txt
+
+The city of Yo-Nyork is built according to a regular plan and is divided by streets into square blocks, the length of the side of each block is one kilometer. Each quarter is indicated by two integers — the number of the "row" and the "column" in which it is located, and these numbers can also be negative.
+A variety of events regularly happen in Yo-Nyork, for example, this time some neighborhoods were invaded by Godzillas and King Kong. They attacked the blocks forming a connected area (that is, from any attacked block you can get to any other attacked block, moving each time to one of the four neighborhoods on the side). In order not to disrupt the peaceful life of the rest of the city, the neighborhoods that were attacked decided to fence off with an opaque fence. Determine the length of the fence in kilometers necessary to fence off the attacked neighborhoods. Each section of the fence must separate the attacked block from the unattacked one.
+
+Input format:
+The first line contains an integer n (1 ≤ n ≤ 100,000) — the number of attacked blocks.
+The following n lines contain two numbers r, c (|r|, |c| ≤ 10^9) — coordinates of the attacked quarter.
+
+Output format:
+Output one number — the length of the fence.
+
+Example 1:
+Input:
+1
+1 1
+Output:
+4
+
+Example 2
+Input:
+5
+1 0
+0 1
+0 -1
+-1 0
+0 0
+Output:
+12
